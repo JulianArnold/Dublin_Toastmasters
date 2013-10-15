@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @useful_link.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @useful_link.description %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%= @useful_link.image_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_useful_link_path(@useful_link) %> |
+<%= link_to 'Back', useful_links_path %>

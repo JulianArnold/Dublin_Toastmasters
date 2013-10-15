@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @members_section.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @members_section.description %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%= @members_section.image_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_members_section_path(@members_section) %> |
+<%= link_to 'Back', members_sections_path %>

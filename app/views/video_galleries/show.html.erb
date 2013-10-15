@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @video_gallery.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @video_gallery.description %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%= @video_gallery.image_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_video_gallery_path(@video_gallery) %> |
+<%= link_to 'Back', video_galleries_path %>

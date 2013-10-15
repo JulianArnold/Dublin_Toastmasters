@@ -1,0 +1,27 @@
+<h1>Listing useful_links</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Image url</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @useful_links.each do |useful_link| %>
+  <tr>
+    <td><%= useful_link.title %></td>
+    <td><%= useful_link.description %></td>
+    <td><%= useful_link.image_url %></td>
+    <td><%= link_to 'Show', useful_link %></td>
+    <td><%= link_to 'Edit', edit_useful_link_path(useful_link) %></td>
+    <td><%= link_to 'Destroy', useful_link, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Useful link', new_useful_link_path %>

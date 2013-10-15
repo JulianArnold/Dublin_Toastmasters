@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @how_to_find_u.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @how_to_find_u.description %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%= @how_to_find_u.image_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_how_to_find_u_path(@how_to_find_u) %> |
+<%= link_to 'Back', how_to_find_us_path %>

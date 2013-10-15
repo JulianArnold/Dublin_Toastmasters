@@ -1,0 +1,27 @@
+<h1>Listing members_sections</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Image url</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @members_sections.each do |members_section| %>
+  <tr>
+    <td><%= members_section.title %></td>
+    <td><%= members_section.description %></td>
+    <td><%= members_section.image_url %></td>
+    <td><%= link_to 'Show', members_section %></td>
+    <td><%= link_to 'Edit', edit_members_section_path(members_section) %></td>
+    <td><%= link_to 'Destroy', members_section, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Members section', new_members_section_path %>

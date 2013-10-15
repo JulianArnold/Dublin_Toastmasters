@@ -1,0 +1,27 @@
+<h1>Listing how_to_find_us</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Image url</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @how_to_find_us.each do |how_to_find_u| %>
+  <tr>
+    <td><%= how_to_find_u.title %></td>
+    <td><%= how_to_find_u.description %></td>
+    <td><%= how_to_find_u.image_url %></td>
+    <td><%= link_to 'Show', how_to_find_u %></td>
+    <td><%= link_to 'Edit', edit_how_to_find_u_path(how_to_find_u) %></td>
+    <td><%= link_to 'Destroy', how_to_find_u, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New How to find u', new_how_to_find_u_path %>

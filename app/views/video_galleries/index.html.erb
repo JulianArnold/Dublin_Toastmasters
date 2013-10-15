@@ -1,0 +1,27 @@
+<h1>Listing video_galleries</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Image url</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @video_galleries.each do |video_gallery| %>
+  <tr>
+    <td><%= video_gallery.title %></td>
+    <td><%= video_gallery.description %></td>
+    <td><%= video_gallery.image_url %></td>
+    <td><%= link_to 'Show', video_gallery %></td>
+    <td><%= link_to 'Edit', edit_video_gallery_path(video_gallery) %></td>
+    <td><%= link_to 'Destroy', video_gallery, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Video gallery', new_video_gallery_path %>
