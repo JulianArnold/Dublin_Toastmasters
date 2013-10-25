@@ -1,4 +1,7 @@
 Toastmasters::Application.routes.draw do
+  resources :calendars
+
+
   resources :members_sections
 
 
