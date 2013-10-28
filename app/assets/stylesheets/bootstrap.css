@@ -4378,7 +4378,7 @@ input[type="submit"].btn.btn-mini {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
   background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
   background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-image: linear-gradient(to bottom, #772533, #005479);
   background-repeat: repeat-x;
   border: 1px solid #d4d4d4;
   -webkit-border-radius: 4px;
@@ -4418,8 +4418,8 @@ input[type="submit"].btn.btn-mini {
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
-  color: #777777;
-  text-shadow: 0 1px 0 #ffffff;
+  color: #feea91;
+  /*text-shadow: 0 1px 0 #ffffff;*/
 }
 
 .navbar .brand:hover,
@@ -4569,7 +4569,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  width: 95%;
 }
 
 .navbar-fixed-top {
@@ -4613,9 +4613,9 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a {
   float: none;
   padding: 10px 15px 10px;
-  color: #777777;
+  color: #feea91;
   text-decoration: none;
-  text-shadow: 0 1px 0 #ffffff;
+  /*text-shadow: 0 1px 0 #ffffff;*/
 }
 
 .navbar .nav .dropdown-toggle .caret {
@@ -4624,7 +4624,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  color: #333333;
+  color: #ffffff;
   text-decoration: none;
   background-color: transparent;
 }
