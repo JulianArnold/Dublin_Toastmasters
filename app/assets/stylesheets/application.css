@@ -17,6 +17,7 @@ body {
     padding-bottom: 70px;
 }
 
+
 html, body {
     height: 100%;
 }
@@ -42,7 +43,11 @@ html, body {
 	  background-image: linear-gradient(to bottom, #005479, #772533);
 }
 
-
+#logo_area {
+	padding:10px 0;
+	margin:0;
+	display:inline-block;
+}
 
 
 
