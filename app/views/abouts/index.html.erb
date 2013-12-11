@@ -1,25 +1,48 @@
-<h1>Listing abouts</h1>
+<h2>About Dublin Toastmasters</h2>
+<br />
+<h3>What happens at the meeting?</h3>
 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Description</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+<p>A typical meeting lasts for two hours. As a guest, you can come along to any of our meetings in order to experience our club, and please note you are not required to participate at any point (unless you want to jump in on a topic in the first hour).
+</p>
 
-<% @abouts.each do |about| %>
-  <tr>
-    <td><%= about.title %></td>
-    <td><%= about.description %></td>
-    <td><%= link_to 'Show', about %></td>
-    <td><%= link_to 'Edit', edit_about_path(about) %></td>
-    <td><%= link_to 'Destroy', about, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
+<div id="columns">
+  <div class="left column">
+    <h3>Table Topics</h3>
+    <p>The first half of the meeting includes a Topics Session where members are encouraged to speak for up to two minutes on a randomly chosen topic. The idea of this exercise is to practice thinking on your feet. It is designed to be an informal and entertaining session. Anyone attending the meeting may provide a response of up to one minute on any topic.</p>
+  </div>
+  <div class="right column">
+    <h3>Prepared Speeches</h3>
+    <p>The second half of the meeting is comprised of prepared speeches given by members who are working through the Toastmasters communication programs. This is followed by an evaluation session. Our evaluations are always positive and encouraging, and are designed to support and inspire everyone present.</p><br />
+  </div>
+</div>
+<br />
+<br />
+
+<h3>Visiting and Joining Up</h3>
+<p>We strongly encourage you to come along as a guest, where you can find out more about joining our club. Ask any of our members for more information. If our club does not suit you there are 20 more in the Dublin area. Guests are very welcome to attend at any time – however there will be no demand whatsoever on guests to speak. However, should you wish to speak, or otherwise contribute, there may be a chance to do so in the first half of the meeting.</p>
+<br />
+
+<p><strong>Our club</strong> can benefit anyone who wants to improve their communication and leadership skills – from beginner to advanced levels. Constructive and encouraging feedback is key to the Toastmasters approach that helps people to:</p>
+
+<ul>
+  <li>Become better, more confident public speakers and communicators.</li>
+  <li>Improve their presentation skills – at all levels.</li>
+  <li>Develop and improve impromptu speaking skills.</li>
+  <li>Learn how to successfully persuade, motivate and inspire others.</li>
+  <li>Enhance their leadership skills.</li>
+  <li>Become more effective and focused listeners.</li>
+</ul>
+
+ <br />
+<p><strong>Members</strong> learn through doing by working their way through a series of educational projects that give guidelines on how to make effective speeches and presentations, clearly set out in Manuals.</p>
+
+<p>Members have the use of the projector, and the Club has the facility to record speeches. This allows participants to review and incorporate improvements in future speeches or presentations.</p>
+
+<p>Speech contests are held twice a year. Many keynote, and professional speakers started in Toastmasters.</p>
+ <br />
+<p><strong>Dublin Toastmasters</strong> is one of over 13,500 Toastmasters clubs around the world. We are the oldest club in Ireland, having chartered in 1957. Based in the heart of Dublin, we have a vibrant and diverse membership of over fifty members, meeting weekly from September to June and monthly over the summer. For more information about Toastmasters visit Toastmasters International.</p>
 
 <br />
 
-<%= link_to 'New About', new_about_path %>
+<p>Check our <strong><%= link_to "Useful Links", useful_links_path %></strong> section for more Toastmaster Clubs</p>
+

@@ -19,11 +19,11 @@ body {
 
 
 html, body {
-    height: 100%;
+    height: 90%;
 }
 
 #wrap {
-    min-height: 100%;
+    min-height: 90%;
 }
 
 #main {
@@ -40,13 +40,33 @@ html, body {
 	padding:80px 0;
 	border-top:2px solid #000000;	
 	background-color:#014165;
-	  background-image: linear-gradient(to bottom, #005479, #772533);
+	background-image: linear-gradient(to bottom, #005479, #772533);
 }
 
 #logo_area {
 	padding:10px 0;
 	margin:0;
 	display:inline-block;
+}
+
+#columns {
+    width:100%;
+}
+
+#columns .column {
+    position:relative;
+    width:46%;
+    padding:0%;
+    border:solid 0px #ffffff;
+    height:50%;
+}
+
+#columns .left {
+    float: left;
+}
+
+#columns .right {
+    float: right;
 }
 
 
