@@ -26,7 +26,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="10" selection-start="237" selection-end="237" vertical-scroll-proportion="0.027859237" vertical-offset="219" max-vertical-offset="901">
+            <state line="7" column="2" selection-start="144" selection-end="144" vertical-scroll-proportion="0.1744868" vertical-offset="0" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -83,7 +83,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -105,6 +104,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,7 +204,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-808" width="1296" height="816" extended-state="7" />
+    <frame x="-8" y="-808" width="1296" height="816" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -391,7 +391,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="237" selection-end="237" vertical-scroll-proportion="0.027859237" vertical-offset="219" max-vertical-offset="901">
+        <state line="7" column="2" selection-start="144" selection-end="144" vertical-scroll-proportion="0.1744868" vertical-offset="0" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
